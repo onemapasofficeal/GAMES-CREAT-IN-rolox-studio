@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Motor de Pesquisa — IA-APRENDER</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">🤖 IA-APRENDER</a>
+      <ul class="nav-links">
+        <li><a href="ia-search.html">IA-Search</a></li>
+        <li><a href="motor.html" class="active">Motor de Pesquisa</a></li>
+        <li><a href="gameai.html">GameAI</a></li>
+        <li><a href="https://github.com/onemapasofficeal/IA-APRENDER-go" target="_blank" class="btn-nav">⭐ GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="page-hero" style="--accent:#ffd700">
+    <div class="container">
+      <div class="page-hero-inner">
+        <div>
+          <div class="badge">🏆 App 2 de 3 · Destaque</div>
+          <h1>Motor de Pesquisa</h1>
+          <p>Agrega resultados de 14 motores em paralelo e usa um algoritmo de ranking inteligente com pontuação por frequência, posição, peso do motor e relevância para encontrar o melhor resultado.</p>
+          <div class="hero-btns">
+            <a href="https://github.com/onemapasofficeal/IA-APRENDER-go" target="_blank" class="btn btn-primary">⬇️ Baixar no GitHub</a>
+            <a href="#ranking" class="btn btn-outline">Ver o Ranking</a>
+          </div>
+        </div>
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="terminal-title">MotorDePesquisa</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="t-cyan">$</span> dotnet run --project MotorDePesquisa</p>
+            <p class="t-white">  Pesquisar: <span class="t-yellow">inteligência artificial</span></p>
+            <p class="t-gray">  Consultando 14 motores em paralelo...</p>
+            <p><span class="t-green">✓</span> Google    <span class="t-gray">5 resultados  185ms</span></p>
+            <p><span class="t-green">✓</span> Bing      <span class="t-gray">5 resultados  394ms</span></p>
+            <p class="t-cyan">  ────────────────────────────────────</p>
+            <p class="t-yellow">  🏆 MELHORES RESULTADOS:</p>
+            <p class="t-white">   1. <span class="t-cyan">████████████████████</span> score: 42.3</p>
+            <p class="t-cyan">      url: https://pt.wikipedia.org/wiki/IA</p>
+            <p class="t-gray">      fontes: <span class="t-yellow">Google(#1)</span> <span class="t-yellow">Bing(#2)</span> <span class="t-green">Brave(#1)</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA O RANKING -->
+  <section class="ranking-section" id="ranking">
+    <div class="container">
+      <h2 class="section-title">Como Funciona o Ranking</h2>
+      <p class="section-sub">4 critérios combinados para encontrar o melhor resultado</p>
+      <div class="ranking-grid">
+        <div class="ranking-card">
+          <div class="ranking-num">1</div>
+          <h4>📊 Frequência</h4>
+          <p>URLs que aparecem em múltiplos motores recebem bônus exponencial. Apareceu em 3 motores = +50% na pontuação.</p>
+          <div class="formula">freqBonus = 1 + (engines - 1) × 0.25</div>
+        </div>
+        <div class="ranking-card">
+          <div class="ranking-num">2</div>
+          <h4>📍 Posição</h4>
+          <p>Resultados no topo valem mais. 1º lugar = 5 pontos, 2º = 4 pontos, até o 5º = 1 ponto.</p>
+          <div class="formula">posScore = max(0, 5 - posição) × peso</div>
+        </div>
+        <div class="ranking-card">
+          <div class="ranking-num">3</div>
+          <h4>⚖️ Peso do Motor</h4>
+          <p>Motores mais confiáveis têm peso maior. Google vale 3×, Bing 2.5×, DuckDuckGo 2×.</p>
+          <div class="formula">Google=3.0 · Bing=2.5 · DDG=2.0 · Brave=1.8</div>
+        </div>
+        <div class="ranking-card">
+          <div class="ranking-num">4</div>
+          <h4>🎯 Relevância</h4>
+          <p>Palavras da query presentes no título somam pontos extras. Ter snippet também aumenta a pontuação.</p>
+          <div class="formula">titleScore = palavras_match × 0.5 × peso</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PESOS DOS MOTORES -->
+  <section class="weights-section">
+    <div class="container">
+      <h2 class="section-title">Pesos dos Motores</h2>
+      <div class="weights-grid">
+        <div class="weight-item">
+          <span class="weight-name">Google</span>
+          <div class="weight-bar-wrap">
+            <div class="weight-bar" style="width:100%"></div>
+          </div>
+          <span class="weight-val">3.0×</span>
+        </div>
+        <div class="weight-item">
+          <span class="weight-name">Bing</span>
+          <div class="weight-bar-wrap">
+            <div class="weight-bar" style="width:83%"></div>
+          </div>
+          <span class="weight-val">2.5×</span>
+        </div>
+        <div class="weight-item">
+          <span class="weight-name">DuckDuckGo</span>
+          <div class="weight-bar-wrap">
+            <div class="weight-bar" style="width:67%"></div>
+          </div>
+          <span class="weight-val">2.0×</span>
+        </div>
+        <div class="weight-item">
+          <span class="weight-name">Brave Search</span>
+          <div class="weight-bar-wrap">
+            <div class="weight-bar" style="width:60%"></div>
+          </div>
+          <span class="weight-val">1.8×</span>
+        </div>
+        <div class="weight-item">
+          <span class="weight-name">Yahoo / Yandex</span>
+          <div class="weight-bar-wrap">
+            <div class="weight-bar" style="width:50%"></div>
+          </div>
+          <span class="weight-val">1.5×</span>
+        </div>
+        <div class="weight-item">
+          <span class="weight-name">Startpage</span>
+          <div class="weight-bar-wrap">
+            <div class="weight-bar" style="width:47%"></div>
+          </div>
+          <span class="weight-val">1.4×</span>
+        </div>
+        <div class="weight-item">
+          <span class="weight-name">Qwant / SearXNG</span>
+          <div class="weight-bar-wrap">
+            <div class="weight-bar" style="width:43%"></div>
+          </div>
+          <span class="weight-val">1.3×</span>
+        </div>
+        <div class="weight-item">
+          <span class="weight-name">Baidu / Outros</span>
+          <div class="weight-bar-wrap">
+            <div class="weight-bar" style="width:33%"></div>
+          </div>
+          <span class="weight-val">1.0×</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO USAR -->
+  <section class="install" id="como-usar">
+    <div class="container">
+      <h2 class="section-title">Como Usar</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h4>Clone o repositório</h4>
+            <div class="code-block">
+              <code>git clone https://github.com/onemapasofficeal/IA-APRENDER-go.git && cd IA-APRENDER-go</code>
+              <button class="copy-btn" onclick="copyCode(this)">📋</button>
+            </div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h4>Execute o Motor de Pesquisa</h4>
+            <div class="code-block">
+              <code>dotnet run --project MotorDePesquisa --configuration Release</code>
+              <button class="copy-btn" onclick="copyCode(this)">📋</button>
+            </div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h4>Digite sua pesquisa</h4>
+            <p style="color:#aaa;margin-top:8px">O motor consulta todos os motores em paralelo, agrega os resultados e exibe o ranking com barra de pontuação visual. Digite <code>sair</code> para encerrar.</p>
+          </div>
+        </div>
+      </div>
+      <div class="download-box">
+        <div class="download-info">
+          <h3>📦 Baixar Motor de Pesquisa</h3>
+          <p>Parte do projeto IA-APRENDER. Requer .NET 8 SDK.</p>
+        </div>
+        <a href="https://github.com/onemapasofficeal/IA-APRENDER-go/archive/refs/heads/main.zip" class="btn btn-primary btn-lg">⬇️ Download ZIP</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>Motor de Pesquisa · Parte do projeto <a href="index.html">IA-APRENDER</a> · <a href="https://github.com/onemapasofficeal/IA-APRENDER-go" target="_blank">GitHub</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
