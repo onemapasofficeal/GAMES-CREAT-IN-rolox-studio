@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IA-APRENDER — Suite de Ferramentas com IA</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">🤖 IA-APRENDER</a>
+      <ul class="nav-links">
+        <li><a href="ia-search.html">IA-Search</a></li>
+        <li><a href="motor.html">Motor de Pesquisa</a></li>
+        <li><a href="gameai.html">GameAI</a></li>
+        <li><a href="https://github.com/onemapasofficeal/IA-APRENDER-go" target="_blank" class="btn-nav">⭐ GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="badge">🚀 Open Source · .NET 8 · C#</div>
+      <h1>IA-APRENDER</h1>
+      <p class="hero-sub">
+        Suite completa de ferramentas com Inteligência Artificial.<br/>
+        Busca em 14 motores, ranking inteligente e geração de jogos em segundos.
+      </p>
+      <div class="hero-btns">
+        <a href="https://github.com/onemapasofficeal/IA-APRENDER-go" target="_blank" class="btn btn-primary">
+          ⬇️ Baixar no GitHub
+        </a>
+        <a href="#apps" class="btn btn-outline">Ver os Apps</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span>14</span><small>Motores de Busca</small></div>
+        <div class="stat"><span>3</span><small>Apps Incluídos</small></div>
+        <div class="stat"><span>.NET 8</span><small>Plataforma</small></div>
+        <div class="stat"><span>100%</span><small>Open Source</small></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="terminal-title">IA-APRENDER</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="t-cyan">$</span> dotnet run --project MotorDePesquisa</p>
+          <p class="t-gray">  Consultando 14 motores em paralelo...</p>
+          <p><span class="t-green">✓</span> Google         <span class="t-gray">5 resultados  185ms</span></p>
+          <p><span class="t-green">✓</span> Bing           <span class="t-gray">5 resultados  394ms</span></p>
+          <p><span class="t-green">✓</span> DuckDuckGo     <span class="t-gray">5 resultados  141ms</span></p>
+          <p><span class="t-green">✓</span> Brave Search   <span class="t-gray">5 resultados  454ms</span></p>
+          <p class="t-yellow">  🏆 MELHOR RESULTADO:</p>
+          <p class="t-white">  1. <span class="t-cyan">████████████████████</span> score: 42.3</p>
+          <p class="t-cyan">     url: https://exemplo.com/resultado</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPS -->
+  <section class="apps" id="apps">
+    <div class="container">
+      <h2 class="section-title">Os 3 Apps do Projeto</h2>
+      <p class="section-sub">Cada app é independente e pode ser executado separadamente</p>
+
+      <div class="cards">
+
+        <!-- IA-Search -->
+        <div class="card" onclick="location.href='ia-search.html'">
+          <div class="card-icon">🔍</div>
+          <h3>IA-Search</h3>
+          <p>Testador de motores de busca. Consulta 14 buscadores, exibe URLs geradas, testa conectividade HTTP e mostra os resultados encontrados em cada motor.</p>
+          <ul class="card-features">
+            <li>✓ 14 motores de busca</li>
+            <li>✓ Teste de conectividade HTTP</li>
+            <li>✓ Extração de resultados reais</li>
+            <li>✓ Ranking por velocidade</li>
+          </ul>
+          <a href="ia-search.html" class="btn btn-card">Ver detalhes →</a>
+        </div>
+
+        <!-- Motor de Pesquisa -->
+        <div class="card card-featured" onclick="location.href='motor.html'">
+          <div class="card-badge">⭐ Destaque</div>
+          <div class="card-icon">🏆</div>
+          <h3>Motor de Pesquisa</h3>
+          <p>Agrega resultados de todos os motores em paralelo e usa um algoritmo de ranking inteligente para encontrar o melhor resultado para qualquer pesquisa.</p>
+          <ul class="card-features">
+            <li>✓ Consulta paralela (14 motores)</li>
+            <li>✓ Ranking por frequência + posição</li>
+            <li>✓ Peso por confiabilidade do motor</li>
+            <li>✓ Barra de pontuação visual</li>
+          </ul>
+          <a href="motor.html" class="btn btn-card">Ver detalhes →</a>
+        </div>
+
+        <!-- GameAI -->
+        <div class="card" onclick="location.href='gameai.html'">
+          <div class="card-icon">🎮</div>
+          <h3>GameAI</h3>
+          <p>IA que gera jogos completos em segundos, minutos ou horas. Usa o Motor de Pesquisa para buscar referências e cria jogos únicos baseados no tema escolhido.</p>
+          <ul class="card-features">
+            <li>✓ Geração em 3 velocidades</li>
+            <li>✓ Combate, exploração, puzzles</li>
+            <li>✓ Busca referências na web</li>
+            <li>✓ Jogos únicos por tema</li>
+          </ul>
+          <a href="gameai.html" class="btn btn-card">Ver detalhes →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO INSTALAR -->
+  <section class="install" id="install">
+    <div class="container">
+      <h2 class="section-title">Como Instalar</h2>
+      <p class="section-sub">Precisa apenas do .NET 8 SDK instalado</p>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h4>Clone o repositório</h4>
+            <div class="code-block">
+              <code>git clone https://github.com/onemapasofficeal/IA-APRENDER-go.git</code>
+              <button class="copy-btn" onclick="copyCode(this)">📋</button>
+            </div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h4>Entre na pasta</h4>
+            <div class="code-block">
+              <code>cd IA-APRENDER-go</code>
+              <button class="copy-btn" onclick="copyCode(this)">📋</button>
+            </div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h4>Execute o app desejado</h4>
+            <div class="code-tabs">
+              <button class="tab active" onclick="showTab(this,'t1')">IA-Search</button>
+              <button class="tab" onclick="showTab(this,'t2')">Motor</button>
+              <button class="tab" onclick="showTab(this,'t3')">GameAI</button>
+            </div>
+            <div id="t1" class="code-block tab-content active">
+              <code>dotnet run --project SearchEngine.TestApp</code>
+              <button class="copy-btn" onclick="copyCode(this)">📋</button>
+            </div>
+            <div id="t2" class="code-block tab-content">
+              <code>dotnet run --project MotorDePesquisa</code>
+              <button class="copy-btn" onclick="copyCode(this)">📋</button>
+            </div>
+            <div id="t3" class="code-block tab-content">
+              <code>dotnet run --project GameAI</code>
+              <button class="copy-btn" onclick="copyCode(this)">📋</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="download-box">
+        <div class="download-info">
+          <h3>📦 Baixar o Projeto Completo</h3>
+          <p>Repositório no GitHub com código fonte completo, todos os projetos e documentação.</p>
+        </div>
+        <a href="https://github.com/onemapasofficeal/IA-APRENDER-go/archive/refs/heads/main.zip"
+           class="btn btn-primary btn-lg">
+          ⬇️ Download ZIP
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MOTORES -->
+  <section class="engines-section">
+    <div class="container">
+      <h2 class="section-title">14 Motores de Busca Integrados</h2>
+      <div class="engines-grid">
+        <div class="engine-group">
+          <h4>🌐 Principais</h4>
+          <div class="engine-tags">
+            <span class="tag yellow">Google</span>
+            <span class="tag yellow">Bing</span>
+            <span class="tag yellow">DuckDuckGo</span>
+            <span class="tag yellow">Yahoo</span>
+            <span class="tag yellow">Baidu</span>
+            <span class="tag yellow">Yandex</span>
+          </div>
+        </div>
+        <div class="engine-group">
+          <h4>✨ Especiais</h4>
+          <div class="engine-tags">
+            <span class="tag purple">Ecosia</span>
+            <span class="tag purple">Perplexity AI</span>
+            <span class="tag purple">Wolfram Alpha</span>
+          </div>
+        </div>
+        <div class="engine-group">
+          <h4>🔒 Privacidade</h4>
+          <div class="engine-tags">
+            <span class="tag green">Brave Search</span>
+            <span class="tag green">Qwant</span>
+            <span class="tag green">SearXNG</span>
+            <span class="tag green">Startpage</span>
+            <span class="tag green">Tor Browser</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>🤖 IA-APRENDER</h4>
+          <p>Suite open source de ferramentas com IA para busca e geração de conteúdo.</p>
+        </div>
+        <div>
+          <h4>Apps</h4>
+          <ul>
+            <li><a href="ia-search.html">IA-Search</a></li>
+            <li><a href="motor.html">Motor de Pesquisa</a></li>
+            <li><a href="gameai.html">GameAI</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Links</h4>
+          <ul>
+            <li><a href="https://github.com/onemapasofficeal/IA-APRENDER-go" target="_blank">GitHub</a></li>
+            <li><a href="https://github.com/onemapasofficeal/IA-APRENDER-go/archive/refs/heads/main.zip">Download ZIP</a></li>
+            <li><a href="https://dotnet.microsoft.com/download" target="_blank">.NET 8 SDK</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Open Source · Feito com ❤️ · <a href="https://github.com/onemapasofficeal/IA-APRENDER-go" target="_blank">github.com/onemapasofficeal/IA-APRENDER-go</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
