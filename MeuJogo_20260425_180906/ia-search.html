@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IA-Search — Testador de Motores de Busca</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">🤖 IA-APRENDER</a>
+      <ul class="nav-links">
+        <li><a href="ia-search.html" class="active">IA-Search</a></li>
+        <li><a href="motor.html">Motor de Pesquisa</a></li>
+        <li><a href="gameai.html">GameAI</a></li>
+        <li><a href="https://github.com/onemapasofficeal/IA-APRENDER-go" target="_blank" class="btn-nav">⭐ GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero" style="--accent:#00d4ff">
+    <div class="container">
+      <div class="page-hero-inner">
+        <div>
+          <div class="badge">🔍 App 1 de 3</div>
+          <h1>IA-Search</h1>
+          <p>Testador completo de motores de busca. Consulta 14 buscadores simultaneamente, testa conectividade HTTP, extrai resultados reais e exibe tudo com ranking de velocidade.</p>
+          <div class="hero-btns">
+            <a href="https://github.com/onemapasofficeal/IA-APRENDER-go" target="_blank" class="btn btn-primary">⬇️ Baixar no GitHub</a>
+            <a href="#como-usar" class="btn btn-outline">Como usar</a>
+          </div>
+        </div>
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="terminal-title">SearchEngine.TestApp</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="t-cyan">$</span> dotnet run --project SearchEngine.TestApp</p>
+            <p class="t-gray">  IA-Search — Testador de Motores de Busca v3.0</p>
+            <p class="t-white">  Termo de busca: <span class="t-yellow">inteligência artificial</span></p>
+            <p class="t-cyan">  ▸ PRINCIPAL</p>
+            <p>  ● Google    <span class="t-gray">url: https://www.google.com/search?q=...</span></p>
+            <p>  ● Bing      <span class="t-gray">url: https://www.bing.com/search?q=...</span></p>
+            <p class="t-green">  ✅ Google    200  185ms  │ "Google Search"</p>
+            <p class="t-green">  ✅ Bing      200  394ms  │ "IA - Pesquisar"</p>
+            <p class="t-yellow">  🏆 Ranking: DuckDuckGo 141ms · Google 185ms</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features-section">
+    <div class="container">
+      <h2 class="section-title">O que o IA-Search faz</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">📋</div>
+          <h4>URLs de Busca</h4>
+          <p>Gera e exibe a URL de pesquisa de cada motor, agrupadas por categoria com descrição de cada buscador.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌐</div>
+          <h4>Teste HTTP</h4>
+          <p>Testa a conectividade real de cada motor, exibindo código HTTP, tempo de resposta e título da página.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h4>Resultados Reais</h4>
+          <p>Extrai os resultados encontrados em cada motor com URL, título e snippet de cada item.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🏆</div>
+          <h4>Ranking de Velocidade</h4>
+          <p>Classifica os motores por tempo de resposta e exibe um resumo com sucesso/falha de cada um.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎨</div>
+          <h4>Interface Colorida</h4>
+          <p>Console com cores por categoria: amarelo para principais, roxo para especiais, verde para privacidade.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h4>Paralelo</h4>
+          <p>Consulta até 4 motores simultaneamente para reduzir o tempo total de teste.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MOTORES -->
+  <section class="engines-detail">
+    <div class="container">
+      <h2 class="section-title">14 Motores Integrados</h2>
+      <div class="engines-table-wrap">
+        <table class="engines-table">
+          <thead>
+            <tr><th>Motor</th><th>Categoria</th><th>Descrição</th><th>URL Base</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>🔍 Google</td><td><span class="tag yellow">Principal</span></td><td>Maior motor do mundo, ~92% de participação global</td><td>google.com</td></tr>
+            <tr><td>🔍 Bing</td><td><span class="tag yellow">Principal</span></td><td>Motor da Microsoft, integrado ao Copilot e Edge</td><td>bing.com</td></tr>
+            <tr><td>🦆 DuckDuckGo</td><td><span class="tag yellow">Principal</span></td><td>Foco em privacidade, não rastreia usuários</td><td>duckduckgo.com</td></tr>
+            <tr><td>🟣 Yahoo</td><td><span class="tag yellow">Principal</span></td><td>Um dos primeiros portais, usa resultados do Bing</td><td>search.yahoo.com</td></tr>
+            <tr><td>🔴 Baidu</td><td><span class="tag yellow">Principal</span></td><td>Maior motor da China, ~70% do mercado chinês</td><td>baidu.com</td></tr>
+            <tr><td>🟡 Yandex</td><td><span class="tag yellow">Principal</span></td><td>Maior motor da Rússia, forte em NLP eslavo</td><td>yandex.com</td></tr>
+            <tr><td>🌱 Ecosia</td><td><span class="tag purple">Especial</span></td><td>Planta árvores com receita de anúncios</td><td>ecosia.org</td></tr>
+            <tr><td>🤖 Perplexity AI</td><td><span class="tag purple">Especial</span></td><td>Busca com respostas geradas por IA (LLM)</td><td>perplexity.ai</td></tr>
+            <tr><td>🧮 Wolfram Alpha</td><td><span class="tag purple">Especial</span></td><td>Motor computacional: matemática, ciência, dados</td><td>wolframalpha.com</td></tr>
+            <tr><td>🦁 Brave Search</td><td><span class="tag green">Privacidade</span></td><td>Índice próprio, sem rastreamento</td><td>search.brave.com</td></tr>
+            <tr><td>🇫🇷 Qwant</td><td><span class="tag green">Privacidade</span></td><td>Buscador europeu (França), não vende dados</td><td>qwant.com</td></tr>
+            <tr><td>🔓 SearXNG</td><td><span class="tag green">Privacidade</span></td><td>Metabuscador open-source auto-hospedável</td><td>searx.be</td></tr>
+            <tr><td>🛡️ Startpage</td><td><span class="tag green">Privacidade</span></td><td>Proxy anônimo para resultados do Google</td><td>startpage.com</td></tr>
+            <tr><td>🧅 Tor Browser</td><td><span class="tag green">Privacidade</span></td><td>DuckDuckGo via rede Tor (.onion)</td><td>.onion</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO USAR -->
+  <section class="install" id="como-usar">
+    <div class="container">
+      <h2 class="section-title">Como Usar</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h4>Clone e entre na pasta</h4>
+            <div class="code-block">
+              <code>git clone https://github.com/onemapasofficeal/IA-APRENDER-go.git && cd IA-APRENDER-go</code>
+              <button class="copy-btn" onclick="copyCode(this)">📋</button>
+            </div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h4>Execute o IA-Search</h4>
+            <div class="code-block">
+              <code>dotnet run --project SearchEngine.TestApp --configuration Release</code>
+              <button class="copy-btn" onclick="copyCode(this)">📋</button>
+            </div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h4>Digite o termo e escolha testar</h4>
+            <p style="color:#aaa;margin-top:8px">O app pergunta o termo de busca e se deseja testar a conectividade HTTP. Digite <code>s</code> para testar todos os motores.</p>
+          </div>
+        </div>
+      </div>
+      <div class="download-box">
+        <div class="download-info">
+          <h3>📦 Baixar IA-Search</h3>
+          <p>Parte do projeto IA-APRENDER. Requer .NET 8 SDK.</p>
+        </div>
+        <a href="https://github.com/onemapasofficeal/IA-APRENDER-go/archive/refs/heads/main.zip" class="btn btn-primary btn-lg">⬇️ Download ZIP</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>IA-Search · Parte do projeto <a href="index.html">IA-APRENDER</a> · <a href="https://github.com/onemapasofficeal/IA-APRENDER-go" target="_blank">GitHub</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
