@@ -1,0 +1,570 @@
+{
+  "name": "TheGameRealist",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "AchievementSystem": {
+        "$path": "ServerScriptService/AchievementSystem.server.lua"
+      },
+      "AdminSystem": {
+        "$path": "ServerScriptService/AdminSystem.server.lua"
+      },
+      "AirportSystem": {
+        "$path": "ServerScriptService/AirportSystem.server.lua"
+      },
+      "AlienSystem": {
+        "$path": "ServerScriptService/AlienSystem.server.lua"
+      },
+      "AnimalSystem": {
+        "$path": "ServerScriptService/AnimalSystem.server.lua"
+      },
+      "AnnouncementSystem": {
+        "$path": "ServerScriptService/AnnouncementSystem.server.lua"
+      },
+      "AuctionSystem": {
+        "$path": "ServerScriptService/AuctionSystem.server.lua"
+      },
+      "BabySystem": {
+        "$path": "ServerScriptService/BabySystem.server.lua"
+      },
+      "BankSystem": {
+        "$path": "ServerScriptService/BankSystem.server.lua"
+      },
+      "BarberSystem": {
+        "$path": "ServerScriptService/BarberSystem.server.lua"
+      },
+      "BasketballSystem": {
+        "$path": "ServerScriptService/BasketballSystem.server.lua"
+      },
+      "BeachSystem": {
+        "$path": "ServerScriptService/BeachSystem.server.lua"
+      },
+      "BikeSystem": {
+        "$path": "ServerScriptService/BikeSystem.server.lua"
+      },
+      "BirthdaySystem": {
+        "$path": "ServerScriptService/BirthdaySystem.server.lua"
+      },
+      "BoatSystem": {
+        "$path": "ServerScriptService/BoatSystem.server.lua"
+      },
+      "BountySystem": {
+        "$path": "ServerScriptService/BountySystem.server.lua"
+      },
+      "BoxingSystem": {
+        "$path": "ServerScriptService/BoxingSystem.server.lua"
+      },
+      "ChatSystem": {
+        "$path": "ServerScriptService/ChatSystem.server.lua"
+      },
+      "CinemaSystem": {
+        "$path": "ServerScriptService/CinemaSystem.server.lua"
+      },
+      "ClassSystem": {
+        "$path": "ServerScriptService/ClassSystem.server.lua"
+      },
+      "CloningSystem": {
+        "$path": "ServerScriptService/CloningSystem.server.lua"
+      },
+      "ClothingSystem": {
+        "$path": "ServerScriptService/ClothingSystem.server.lua"
+      },
+      "CookingSystem": {
+        "$path": "ServerScriptService/CookingSystem.server.lua"
+      },
+      "CourtSystem": {
+        "$path": "ServerScriptService/CourtSystem.server.lua"
+      },
+      "CraftingSystem": {
+        "$path": "ServerScriptService/CraftingSystem.server.lua"
+      },
+      "CrimeSystem": {
+        "$path": "ServerScriptService/CrimeSystem.server.lua"
+      },
+      "CryptoSystem": {
+        "$path": "ServerScriptService/CryptoSystem.server.lua"
+      },
+      "DailyRewardSystem": {
+        "$path": "ServerScriptService/DailyRewardSystem.server.lua"
+      },
+      "DataStoreSystem": {
+        "$path": "ServerScriptService/DataStoreSystem.server.lua"
+      },
+      "DatingSystem": {
+        "$path": "ServerScriptService/DatingSystem.server.lua"
+      },
+      "DeliverySystem": {
+        "$path": "ServerScriptService/DeliverySystem.server.lua"
+      },
+      "DisasterSystem": {
+        "$path": "ServerScriptService/DisasterSystem.server.lua"
+      },
+      "DrugSystem": {
+        "$path": "ServerScriptService/DrugSystem.server.lua"
+      },
+      "ElectricitySystem": {
+        "$path": "ServerScriptService/ElectricitySystem.server.lua"
+      },
+      "ElectronicsShop": {
+        "$path": "ServerScriptService/ElectronicsShop.server.lua"
+      },
+      "EnvironmentSystem": {
+        "$path": "ServerScriptService/EnvironmentSystem.server.lua"
+      },
+      "EventSystem": {
+        "$path": "ServerScriptService/EventSystem.server.lua"
+      },
+      "FarmSystem": {
+        "$path": "ServerScriptService/FarmSystem.server.lua"
+      },
+      "FireDeptSystem": {
+        "$path": "ServerScriptService/FireDeptSystem.server.lua"
+      },
+      "FishingSystem": {
+        "$path": "ServerScriptService/FishingSystem.server.lua"
+      },
+      "FriendSystem": {
+        "$path": "ServerScriptService/FriendSystem.server.lua"
+      },
+      "FurnitureSystem": {
+        "$path": "ServerScriptService/FurnitureSystem.server.lua"
+      },
+      "GamblingSystem": {
+        "$path": "ServerScriptService/GamblingSystem.server.lua"
+      },
+      "GameSetup": {
+        "$path": "ServerScriptService/GameSetup.server.lua"
+      },
+      "GangSystem": {
+        "$path": "ServerScriptService/GangSystem.server.lua"
+      },
+      "GarageSystem": {
+        "$path": "ServerScriptService/GarageSystem.server.lua"
+      },
+      "GardenSystem": {
+        "$path": "ServerScriptService/GardenSystem.server.lua"
+      },
+      "GiftSystem": {
+        "$path": "ServerScriptService/GiftSystem.server.lua"
+      },
+      "GunSystem": {
+        "$path": "ServerScriptService/GunSystem.server.lua"
+      },
+      "GymSystem": {
+        "$path": "ServerScriptService/GymSystem.server.lua"
+      },
+      "HackingSystem": {
+        "$path": "ServerScriptService/HackingSystem.server.lua"
+      },
+      "HealthInsuranceSystem": {
+        "$path": "ServerScriptService/HealthInsuranceSystem.server.lua"
+      },
+      "HolidaySystem": {
+        "$path": "ServerScriptService/HolidaySystem.server.lua"
+      },
+      "HospitalSystem": {
+        "$path": "ServerScriptService/HospitalSystem.server.lua"
+      },
+      "HotelSystem": {
+        "$path": "ServerScriptService/HotelSystem.server.lua"
+      },
+      "HouseSystem": {
+        "$path": "ServerScriptService/HouseSystem.server.lua"
+      },
+      "HungerThirst": {
+        "$path": "ServerScriptService/HungerThirst.server.lua"
+      },
+      "InsuranceSystem": {
+        "$path": "ServerScriptService/InsuranceSystem.server.lua"
+      },
+      "InventorySystem": {
+        "$path": "ServerScriptService/InventorySystem.server.lua"
+      },
+      "JobSystem": {
+        "$path": "ServerScriptService/JobSystem.server.lua"
+      },
+      "LeaderboardSystem": {
+        "$path": "ServerScriptService/LeaderboardSystem.server.lua"
+      },
+      "LevelSystem": {
+        "$path": "ServerScriptService/LevelSystem.server.lua"
+      },
+      "LibrarySystem": {
+        "$path": "ServerScriptService/LibrarySystem.server.lua"
+      },
+      "LotterySystem": {
+        "$path": "ServerScriptService/LotterySystem.server.lua"
+      },
+      "MafiaSystem": {
+        "$path": "ServerScriptService/MafiaSystem.server.lua"
+      },
+      "MagicSystem": {
+        "$path": "ServerScriptService/MagicSystem.server.lua"
+      },
+      "MapGenerator": {
+        "$path": "ServerScriptService/MapGenerator.server.lua"
+      },
+      "MarketplaceSystem": {
+        "$path": "ServerScriptService/MarketplaceSystem.server.lua"
+      },
+      "MayorSystem": {
+        "$path": "ServerScriptService/MayorSystem.server.lua"
+      },
+      "MeleeSystem": {
+        "$path": "ServerScriptService/MeleeSystem.server.lua"
+      },
+      "MemorySystem": {
+        "$path": "ServerScriptService/MemorySystem.server.lua"
+      },
+      "MiningSystem": {
+        "$path": "ServerScriptService/MiningSystem.server.lua"
+      },
+      "MoneySystem": {
+        "$path": "ServerScriptService/MoneySystem.server.lua"
+      },
+      "MoodSystem": {
+        "$path": "ServerScriptService/MoodSystem.server.lua"
+      },
+      "MountainSystem": {
+        "$path": "ServerScriptService/MountainSystem.server.lua"
+      },
+      "MusicSystem": {
+        "$path": "ServerScriptService/MusicSystem.server.lua"
+      },
+      "NFTSystem": {
+        "$path": "ServerScriptService/NFTSystem.server.lua"
+      },
+      "NPCSystem": {
+        "$path": "ServerScriptService/NPCSystem.server.lua"
+      },
+      "NewsSystem": {
+        "$path": "ServerScriptService/NewsSystem.server.lua"
+      },
+      "NightclubSystem": {
+        "$path": "ServerScriptService/NightclubSystem.server.lua"
+      },
+      "ParkSystem": {
+        "$path": "ServerScriptService/ParkSystem.server.lua"
+      },
+      "PartySystem": {
+        "$path": "ServerScriptService/PartySystem.server.lua"
+      },
+      "PetSystem": {
+        "$path": "ServerScriptService/PetSystem.server.lua"
+      },
+      "PharmacySystem": {
+        "$path": "ServerScriptService/PharmacySystem.server.lua"
+      },
+      "PhoneSystem": {
+        "$path": "ServerScriptService/PhoneSystem.server.lua"
+      },
+      "PlaneSystem": {
+        "$path": "ServerScriptService/PlaneSystem.server.lua"
+      },
+      "PoliceSystem": {
+        "$path": "ServerScriptService/PoliceSystem.server.lua"
+      },
+      "PoolSystem": {
+        "$path": "ServerScriptService/PoolSystem.server.lua"
+      },
+      "PrisonSystem": {
+        "$path": "ServerScriptService/PrisonSystem.server.lua"
+      },
+      "QuestSystem": {
+        "$path": "ServerScriptService/QuestSystem.server.lua"
+      },
+      "RacingSystem": {
+        "$path": "ServerScriptService/RacingSystem.server.lua"
+      },
+      "RadioSystem": {
+        "$path": "ServerScriptService/RadioSystem.server.lua"
+      },
+      "RealEstateSystem": {
+        "$path": "ServerScriptService/RealEstateSystem.server.lua"
+      },
+      "ReputationSystem": {
+        "$path": "ServerScriptService/ReputationSystem.server.lua"
+      },
+      "RestaurantSystem": {
+        "$path": "ServerScriptService/RestaurantSystem.server.lua"
+      },
+      "RobotSystem": {
+        "$path": "ServerScriptService/RobotSystem.server.lua"
+      },
+      "SchoolSystem": {
+        "$path": "ServerScriptService/SchoolSystem.server.lua"
+      },
+      "ScratchCardSystem": {
+        "$path": "ServerScriptService/ScratchCardSystem.server.lua"
+      },
+      "SeasonSystem": {
+        "$path": "ServerScriptService/SeasonSystem.server.lua"
+      },
+      "ServerInfoSystem": {
+        "$path": "ServerScriptService/ServerInfoSystem.server.lua"
+      },
+      "ShopSystem": {
+        "$path": "ServerScriptService/ShopSystem.server.lua"
+      },
+      "SkillTreeSystem": {
+        "$path": "ServerScriptService/SkillTreeSystem.server.lua"
+      },
+      "SleepSystem": {
+        "$path": "ServerScriptService/SleepSystem.server.lua"
+      },
+      "SoccerSystem": {
+        "$path": "ServerScriptService/SoccerSystem.server.lua"
+      },
+      "SocialMediaSystem": {
+        "$path": "ServerScriptService/SocialMediaSystem.server.lua"
+      },
+      "SpaSystem": {
+        "$path": "ServerScriptService/SpaSystem.server.lua"
+      },
+      "SpaceSystem": {
+        "$path": "ServerScriptService/SpaceSystem.server.lua"
+      },
+      "SpySystem": {
+        "$path": "ServerScriptService/SpySystem.server.lua"
+      },
+      "StatisticsSystem": {
+        "$path": "ServerScriptService/StatisticsSystem.server.lua"
+      },
+      "StockMarket": {
+        "$path": "ServerScriptService/StockMarket.server.lua"
+      },
+      "SupermarketSystem": {
+        "$path": "ServerScriptService/SupermarketSystem.server.lua"
+      },
+      "SuperpowerSystem": {
+        "$path": "ServerScriptService/SuperpowerSystem.server.lua"
+      },
+      "TVSystem": {
+        "$path": "ServerScriptService/TVSystem.server.lua"
+      },
+      "TattooSystem": {
+        "$path": "ServerScriptService/TattooSystem.server.lua"
+      },
+      "TaxSystem": {
+        "$path": "ServerScriptService/TaxSystem.server.lua"
+      },
+      "TaxiSystem": {
+        "$path": "ServerScriptService/TaxiSystem.server.lua"
+      },
+      "TeleportSystem": {
+        "$path": "ServerScriptService/TeleportSystem.server.lua"
+      },
+      "TennisSystem": {
+        "$path": "ServerScriptService/TennisSystem.server.lua"
+      },
+      "TimeTravel": {
+        "$path": "ServerScriptService/TimeTravel.server.lua"
+      },
+      "TitleSystem": {
+        "$path": "ServerScriptService/TitleSystem.server.lua"
+      },
+      "TournamentSystem": {
+        "$path": "ServerScriptService/TournamentSystem.server.lua"
+      },
+      "TrashSystem": {
+        "$path": "ServerScriptService/TrashSystem.server.lua"
+      },
+      "TreasureHuntSystem": {
+        "$path": "ServerScriptService/TreasureHuntSystem.server.lua"
+      },
+      "TruckSystem": {
+        "$path": "ServerScriptService/TruckSystem.server.lua"
+      },
+      "TutorialSystem": {
+        "$path": "ServerScriptService/TutorialSystem.server.lua"
+      },
+      "VehicleSystem": {
+        "$path": "ServerScriptService/VehicleSystem.server.lua"
+      },
+      "VirtualRealitySystem": {
+        "$path": "ServerScriptService/VirtualRealitySystem.server.lua"
+      },
+      "VotingSystem": {
+        "$path": "ServerScriptService/VotingSystem.server.lua"
+      },
+      "WeaponShop": {
+        "$path": "ServerScriptService/WeaponShop.server.lua"
+      },
+      "WeatherSystem": {
+        "$path": "ServerScriptService/WeatherSystem.server.lua"
+      },
+      "WeddingSystem": {
+        "$path": "ServerScriptService/WeddingSystem.server.lua"
+      },
+      "ZombieSystem": {
+        "$path": "ServerScriptService/ZombieSystem.server.lua"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "AdminPanel": {
+          "$path": "StarterPlayerScripts/AdminPanel.client.lua"
+        },
+        "CitizenAbilities": {
+          "$path": "StarterPlayerScripts/CitizenAbilities.client.lua"
+        },
+        "ClassHUD": {
+          "$path": "StarterPlayerScripts/ClassHUD.client.lua"
+        },
+        "ClassSelector": {
+          "$path": "StarterPlayerScripts/ClassSelector.client.lua"
+        },
+        "CriminalAbilities": {
+          "$path": "StarterPlayerScripts/CriminalAbilities.client.lua"
+        },
+        "Hud": {
+          "Clock": {
+            "$path": "StarterPlayerScripts/Hud/Clock.client.lua"
+          },
+          "Compass": {
+            "$path": "StarterPlayerScripts/Hud/Compass.client.lua"
+          },
+          "Crosshair": {
+            "$path": "StarterPlayerScripts/Hud/Crosshair.client.lua"
+          },
+          "HealthBar": {
+            "$path": "StarterPlayerScripts/Hud/HealthBar.client.lua"
+          },
+          "InteractionPrompt": {
+            "$path": "StarterPlayerScripts/Hud/InteractionPrompt.client.lua"
+          },
+          "Minimap": {
+            "$path": "StarterPlayerScripts/Hud/Minimap.client.lua"
+          },
+          "Notification": {
+            "$path": "StarterPlayerScripts/Hud/Notification.client.lua"
+          },
+          "PlayerList": {
+            "$path": "StarterPlayerScripts/Hud/PlayerList.client.lua"
+          },
+          "SpeedoMeter": {
+            "$path": "StarterPlayerScripts/Hud/SpeedoMeter.client.lua"
+          },
+          "StaminaBar": {
+            "$path": "StarterPlayerScripts/Hud/StaminaBar.client.lua"
+          },
+          "$className": "Folder"
+        },
+        "MainMenu": {
+          "$path": "StarterPlayerScripts/MainMenu.client.lua"
+        },
+        "Menus": {
+          "AchievementsMenu": {
+            "$path": "StarterPlayerScripts/Menus/AchievementsMenu.client.lua"
+          },
+          "BankMenu": {
+            "$path": "StarterPlayerScripts/Menus/BankMenu.client.lua"
+          },
+          "CharacterCustomization": {
+            "$path": "StarterPlayerScripts/Menus/CharacterCustomization.client.lua"
+          },
+          "ChatMenu": {
+            "$path": "StarterPlayerScripts/Menus/ChatMenu.client.lua"
+          },
+          "CraftingMenu": {
+            "$path": "StarterPlayerScripts/Menus/CraftingMenu.client.lua"
+          },
+          "CrimeMenu": {
+            "$path": "StarterPlayerScripts/Menus/CrimeMenu.client.lua"
+          },
+          "DailyRewardMenu": {
+            "$path": "StarterPlayerScripts/Menus/DailyRewardMenu.client.lua"
+          },
+          "FarmMenu": {
+            "$path": "StarterPlayerScripts/Menus/FarmMenu.client.lua"
+          },
+          "FishingMenu": {
+            "$path": "StarterPlayerScripts/Menus/FishingMenu.client.lua"
+          },
+          "GamblingMenu": {
+            "$path": "StarterPlayerScripts/Menus/GamblingMenu.client.lua"
+          },
+          "GymMenu": {
+            "$path": "StarterPlayerScripts/Menus/GymMenu.client.lua"
+          },
+          "HospitalMenu": {
+            "$path": "StarterPlayerScripts/Menus/HospitalMenu.client.lua"
+          },
+          "HouseMenu": {
+            "$path": "StarterPlayerScripts/Menus/HouseMenu.client.lua"
+          },
+          "InventoryMenu": {
+            "$path": "StarterPlayerScripts/Menus/InventoryMenu.client.lua"
+          },
+          "JobMenu": {
+            "$path": "StarterPlayerScripts/Menus/JobMenu.client.lua"
+          },
+          "LeaderboardMenu": {
+            "$path": "StarterPlayerScripts/Menus/LeaderboardMenu.client.lua"
+          },
+          "MarketplaceMenu": {
+            "$path": "StarterPlayerScripts/Menus/MarketplaceMenu.client.lua"
+          },
+          "NewsMenu": {
+            "$path": "StarterPlayerScripts/Menus/NewsMenu.client.lua"
+          },
+          "PauseMenu": {
+            "$path": "StarterPlayerScripts/Menus/PauseMenu.client.lua"
+          },
+          "PetMenu": {
+            "$path": "StarterPlayerScripts/Menus/PetMenu.client.lua"
+          },
+          "PhoneMenu": {
+            "$path": "StarterPlayerScripts/Menus/PhoneMenu.client.lua"
+          },
+          "QuestMenu": {
+            "$path": "StarterPlayerScripts/Menus/QuestMenu.client.lua"
+          },
+          "SettingsMenu": {
+            "$path": "StarterPlayerScripts/Menus/SettingsMenu.client.lua"
+          },
+          "ShopMenu": {
+            "$path": "StarterPlayerScripts/Menus/ShopMenu.client.lua"
+          },
+          "SkillTreeMenu": {
+            "$path": "StarterPlayerScripts/Menus/SkillTreeMenu.client.lua"
+          },
+          "SocialMenu": {
+            "$path": "StarterPlayerScripts/Menus/SocialMenu.client.lua"
+          },
+          "StockMarketMenu": {
+            "$path": "StarterPlayerScripts/Menus/StockMarketMenu.client.lua"
+          },
+          "TaxiMenu": {
+            "$path": "StarterPlayerScripts/Menus/TaxiMenu.client.lua"
+          },
+          "TeleportMenu": {
+            "$path": "StarterPlayerScripts/Menus/TeleportMenu.client.lua"
+          },
+          "TutorialUI": {
+            "$path": "StarterPlayerScripts/Menus/TutorialUI.client.lua"
+          },
+          "VehicleMenu": {
+            "$path": "StarterPlayerScripts/Menus/VehicleMenu.client.lua"
+          },
+          "$className": "Folder"
+        },
+        "MoneyUI": {
+          "$path": "StarterPlayerScripts/MoneyUI.client.lua"
+        },
+        "StatsUI": {
+          "$path": "StarterPlayerScripts/StatsUI.client.lua"
+        }
+      }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "GameConfig": {
+        "$path": "ReplicatedStorage/GameConfig.lua"
+      }
+    }
+  }
+}
